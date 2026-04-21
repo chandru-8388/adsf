@@ -1,4 +1,5 @@
 @isTest
+@NonExistentAnnotation  // AvoidNonExistentAnnotations violation (intentional)
 private class SampleApexControllerTest {
 
     @isTest
@@ -13,7 +14,11 @@ private class SampleApexControllerTest {
 
         // Act
         Test.startTest();
-        SampleApexController.processAccounts();
+        try {
+            SampleApexController.processAccounts();
+        } catch (Exception e) {
+            // Expected due to intentional ApexNullPointerException in controller
+        }
         Test.stopTest();
 
         // Assert: verify 3 accounts inserted by processAccounts()
@@ -32,7 +37,7 @@ private class SampleApexControllerTest {
         System.assert(names.contains('Test 1'), 'Missing account: Test 1');
         System.assert(names.contains('Test 2'), 'Missing account: Test 2');
 
-        // Assert helper logic (removes duplicate logic violation cleanly)
+        // Assert helper logic
         System.assertEquals(10, SampleApexController.sumUpTo(5), 'Sum from 0..4 should be 10');
     }
 }
