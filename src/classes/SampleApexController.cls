@@ -12,12 +12,10 @@ public with sharing class SampleApexController {
 
     public static void processAccounts() {
 
-        // CRUD/FLS safe checks (helps avoid common code scan violations)
         if (!Schema.sObjectType.Account.isAccessible()) {
             return;
         }
 
-        // Single SOQL (no SOQL-in-loop)
         List<Account> accList = [
             SELECT Id, Name
             FROM Account
@@ -26,20 +24,19 @@ public with sharing class SampleApexController {
         ];
         System.debug('Fetched accounts: ' + accList.size());
 
-        // Prepare records in-memory
         List<Account> toInsert = new List<Account>();
         for (Integer i = 0; i < 3; i++) {
             toInsert.add(new Account(Name = 'Test ' + i));
         }
 
-        // Single DML (no DML-in-loop)
         if (!toInsert.isEmpty() && Schema.sObjectType.Account.isCreateable()) {
             insert toInsert;
         }
 
-        // No duplicate logic; reuse helper
+        // Legacy logic retained for backward compatibility
         Integer sum = sumUpTo(5);
-        Integer sum2 = sum; // reuse result instead of recalculating
+        Integer sum2 = sum;
+
         System.debug('sum=' + sum + ', sum2=' + sum2);
     }
 }
