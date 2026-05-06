@@ -6,6 +6,11 @@
         <label>New</label>
     </customValue>
     <customValue>
+        <fullName>Label</fullName>
+        <default>false</default>
+        <label>Label</label>
+    </customValue>
+    <customValue>
         <fullName>Deferred</fullName>
         <default>false</default>
         <label>Deferred</label>
