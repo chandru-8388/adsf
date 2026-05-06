@@ -30,6 +30,11 @@
         <default>false</default>
         <label>Cancelled</label>
     </customValue>
+    <customValue>
+        <fullName>2640</fullName>
+        <default>false</default>
+        <label>2640</label>
+    </customValue>
     <masterLabel>ProductServiceCampaignStatusCategory</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
