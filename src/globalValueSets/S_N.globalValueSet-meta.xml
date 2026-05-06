@@ -16,11 +16,6 @@
         <label>test1</label>
     </customValue>
     <customValue>
-        <fullName>s&amp;n</fullName>
-        <default>false</default>
-        <label>s&amp;n</label>
-    </customValue>
-    <customValue>
         <fullName>test3</fullName>
         <default>false</default>
         <label>test3</label>
@@ -29,6 +24,11 @@
         <fullName>test4</fullName>
         <default>false</default>
         <label>test4</label>
+    </customValue>
+    <customValue>
+        <fullName>s&amp;n</fullName>
+        <default>false</default>
+        <label>s&amp;n</label>
     </customValue>
     <masterLabel>S+N PL GDC - Arvato</masterLabel>
     <sorted>false</sorted>
