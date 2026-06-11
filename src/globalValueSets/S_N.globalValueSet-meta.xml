@@ -16,6 +16,11 @@
         <label>Test</label>
     </customValue>
     <customValue>
+        <fullName>Azuretest</fullName>
+        <default>false</default>
+        <label>Azuretest</label>
+    </customValue>
+    <customValue>
         <fullName>test1</fullName>
         <default>false</default>
         <label>test1</label>
@@ -31,5 +36,5 @@
         <label>test4</label>
     </customValue>
     <masterLabel>S+N PL GDC - Arvato</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>
