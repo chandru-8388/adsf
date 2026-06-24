@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Test_1</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- test 1 Section Updated --></label>
+            <section>test 1 Section Updated</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Test_2</layout>
+        <sections>
+            <label><!-- test 2 Section --></label>
+            <section>test 2 Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Test_3</layout>
+        <sections>
+            <label><!-- test 3 Section --></label>
+            <section>test 3 Section</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
