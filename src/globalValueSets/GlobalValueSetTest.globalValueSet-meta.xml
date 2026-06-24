@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>8888</fullName>
+        <default>false</default>
+        <label>8888</label>
+    </customValue>
+    <customValue>
+        <fullName>888888888</fullName>
+        <default>false</default>
+        <label>888888888</label>
+    </customValue>
+    <masterLabel>GlobalValueSetTest</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>
