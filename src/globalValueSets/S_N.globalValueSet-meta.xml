@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>2640</fullName>
+        <default>false</default>
+        <label>2640</label>
+    </customValue>
+    <customValue>
+        <fullName>s&amp;n</fullName>
+        <default>false</default>
+        <label>s&amp;n</label>
+    </customValue>
+    <customValue>
+        <fullName>Test</fullName>
+        <default>false</default>
+        <label>Test</label>
+    </customValue>
+    <customValue>
+        <fullName>Azuretest</fullName>
+        <default>false</default>
+        <label>Azuretest</label>
+    </customValue>
+    <customValue>
+        <fullName>test1</fullName>
+        <default>false</default>
+        <label>test1</label>
+    </customValue>
+    <customValue>
+        <fullName>test3</fullName>
+        <default>false</default>
+        <label>test3</label>
+    </customValue>
+    <customValue>
+        <fullName>test4</fullName>
+        <default>false</default>
+        <label>test4</label>
+    </customValue>
+    <masterLabel>S+N PL GDC - Arvato</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
