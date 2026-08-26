@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>2640</fullName>
+        <fullName>AMER</fullName>
         <default>false</default>
-        <label>2640</label>
+        <label>AMER</label>
     </customValue>
     <customValue>
-        <fullName>s&amp;n</fullName>
+        <fullName>EMEA</fullName>
         <default>false</default>
-        <label>s&amp;n</label>
+        <label>EMEA</label>
     </customValue>
     <customValue>
-        <fullName>Test</fullName>
+        <fullName>APAC</fullName>
         <default>false</default>
-        <label>Test</label>
+        <label>APAC</label>
     </customValue>
     <customValue>
-        <fullName>Azuretest</fullName>
+        <fullName>LATM</fullName>
         <default>false</default>
-        <label>Azuretest</label>
+        <label>LATM</label>
     </customValue>
     <customValue>
-        <fullName>test1</fullName>
+        <fullName>Unidentified</fullName>
         <default>false</default>
-        <label>test1</label>
+        <label>Unidentified</label>
     </customValue>
     <customValue>
-        <fullName>test3</fullName>
+        <fullName>AMER-EAST</fullName>
         <default>false</default>
-        <label>test3</label>
+        <label>AMER-EAST</label>
     </customValue>
     <customValue>
-        <fullName>test4</fullName>
+        <fullName>AMER-WEST</fullName>
         <default>false</default>
-        <label>test4</label>
+        <label>AMER-WEST</label>
     </customValue>
-    <masterLabel>S+N PL GDC - Arvato</masterLabel>
+    <masterLabel>Global Territories</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
