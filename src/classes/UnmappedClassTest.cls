@@ -3,7 +3,7 @@ public class UnmappedClassTest {
     @isTest
     static void testCalculateDiscount() {
         Decimal result = UnmappedClass.calculateDiscount(1000, 10);
-        System.assertEquals(900, result, 'Discount calculation failed');
+        System.assertEquals(800, result, 'Discount calculation failed'); // intentionally wrong expected value (was 900)
     }
 
     @isTest
