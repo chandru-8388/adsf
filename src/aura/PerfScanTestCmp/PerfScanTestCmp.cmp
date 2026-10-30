@@ -1,0 +1,13 @@
+<aura:component controller="PerfScanTestService" implements="flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="result" type="Integer" default="0"/>
+    <aura:attribute name="records" type="List" default="[]"/>
+    <aura:attribute name="message" type="String" default=""/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <lightning:card title="Perf Scan Test">
+        <div class="slds-p-around_medium">
+            <p>Result: {!v.result}</p>
+            <p>{!v.message}</p>
+            <lightning:button label="Run Batch 1" onclick="{!c.runBatch1}"/>
+        </div>
+    </lightning:card>
+</aura:component>
